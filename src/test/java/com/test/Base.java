@@ -24,4 +24,9 @@ public class Base {
 		System.out.println(currentUrl);
 
 	}
+	public static void getTittle() {
+		String tittle = driver.getTitle();
+		System.out.println(tittle);
+
+	}
 }
