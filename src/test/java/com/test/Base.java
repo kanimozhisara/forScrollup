@@ -19,4 +19,9 @@ public class Base {
 		driver.manage().window().maximize();
 
 	}
+	public static void getCurrentUrl() {
+		String currentUrl = driver.getCurrentUrl();
+		System.out.println(currentUrl);
+
+	}
 }
